@@ -184,11 +184,78 @@ select {
 </div>
 
 <script>
-/* --- Your JS unchanged (only formatted) --- */
+/* --- FULL MESSAGE ARRAYS --- */
 
-const thankMessages = [...];   // keep your full arrays here!
-const end1Day = [...];
-const end2Days = [...];
+const thankMessages = [
+"🚨 Danke für eure Unterstützung heute – hat mir viel geholfen! 🤝🫡",
+"🚨 Vielen Dank, dass ihr mich heute so gut unterstützt habt! 🤜🤛",
+"🚨 Danke für eure Hilfe heute, ich weiß das sehr zu schätzen! 🙌🤝",
+"🚨 Danke, dass ihr mir heute wieder so gut zur Seite standet! 🤜🤛",
+"🚨 Vielen Dank für eure Unterstützung bei meinen Aufgaben heute! 🫡🤝",
+"🚨 Danke für eure schnelle und zuverlässige Hilfe heute! 🙏🤜🤛",
+"🚨 Danke, dass ich mich heute wieder auf euch verlassen konnte! 💪🤝",
+"🚨 Vielen Dank für eure wertvolle Unterstützung heute! 🙌🤜🤛",
+"🚨 Danke für eure Hilfe – ihr habt mir meinen Tag echt erleichtert! 🤝😊",
+"🚨 Danke, dass ihr mich heute so gut begleitet habt! 🤜🤛🔥",
+"🚨 Vielen Dank für die Unterstützung, die ich heute von euch bekommen habe! 🫡🤝",
+"🚨 Danke für eure Hilfsbereitschaft heute – wirklich top! 🙏🤜🤛",
+"🚨 Danke, dass ihr mich heute nicht allein gelassen habt! 🤝💛",
+"🚨 Vielen Dank für eure Unterstützung – gemeinsam läuft’s einfach besser! 💪🤜🤛",
+"🚨 Danke für eure zuverlässige Hilfe heute! 🫡🔥",
+"🚨 Vielen Dank, dass ihr mich heute so gut unterstützt habt – echt stark! 🤝🤜🤛",
+"🚨 Danke für eure Unterstützung heute, hat mir viel Arbeit abgenommen! 🙌😊🤝",
+"🚨 Danke, dass ihr mir heute so schnell geholfen habt! 🫡🤜🤛",
+"🚨 Vielen Dank für eure Unterstützung und euren Rückhalt heute! 🤝😊",
+"🚨 Danke für eure Hilfe heute – ich bin euch echt dankbar! 💪🤜🤛"
+];
+
+const end1Day = [
+"🚨 Erholt euch morgen gut und startet danach wieder frisch und motiviert 💪😊✨",
+"🚨 Morgen heißt es: kurz abschalten, Kräfte sammeln und Energie tanken 🤜🤛🙌",
+"🚨 Genießt euren freien Tag und kommt danach voller Schwung zurück 🫡💪",
+"🚨 Morgen eine Pause einlegen und neue Energie für die kommenden Aufgaben sammeln 🙌😊",
+"🚨 Gönnt euch morgen etwas Ruhe – danach geht’s wieder motiviert weiter 🤜🤛✨",
+"🚨 Einen entspannten Tag morgen und danach voller Energie wieder loslegen 💪🤝",
+"🚨 Morgen kurz durchatmen, alles liegen lassen und neue Kraft tanken 🫡🙌",
+"🚨 Einen schönen freien Tag morgen – ihr habt es euch verdient 😊✨",
+"🚨 Morgen mal abschalten, Energie auftanken und positiv zurückkommen 🤜🤛💪",
+"🚨 Genießt die Pause morgen, danach geht’s wieder stark weiter 🙌🤝",
+"🚨 Morgen ein bisschen entspannen, etwas tun, das gut tut, und danach frisch starten 💪😊",
+"🚨 Einen ruhigen Tag morgen einlegen – danach wieder motiviert weiterarbeiten 🤜🤛✨",
+"🚨 Morgen Kräfte sammeln, tief durchatmen und dann mit Elan zurückkommen 🫡🙌",
+"🚨 Die Pause morgen genießen, alles andere liegen lassen und neue Motivation tanken 💪🤝",
+"🚨 Morgen einmal abschalten und regenerieren – danach geht’s wieder top weiter 😊✨",
+"🚨 Gönnt euch morgen ein bisschen Ruhe und Energie für die nächsten Aufgaben 💪🤜🤛",
+"🚨 Morgen entspannen, den Kopf frei machen und voller Motivation zurückkommen 🙌💛",
+"🚨 Einen schönen freien Tag morgen! Danach geht’s wieder stark weiter 🫡🤝",
+"🚨 Morgen mal runterfahren, aufladen und neue Energie sammeln 💪😊",
+"🚨 Einen ruhigen Tag morgen und danach wieder motiviert durchstarten 🤜🤛🙌"
+];
+
+const end2Days = [
+"🚨 Zwei freie Tage genießen, abschalten und danach voller Energie zurückkommen 💪😊✨",
+"🚨 Nutzt die Pause, entspannt euch und tankt neue Kraft für die kommenden Aufgaben 🤜🤛🙌",
+"🚨 Zwei Tage Ruhe – perfekt, um wieder motiviert und frisch zu starten 🫡💪",
+"🚨 Gönnt euch die zwei freien Tage, alles andere mal liegen lassen und neue Energie sammeln 🙌😊",
+"🚨 Zwei Tage abschalten, Kraft tanken und danach motiviert zurückkommen 🤜🤛✨",
+"🚨 Zwei Tage Pause für euch – genießt sie und startet danach voller Schwung 💪🤝",
+"🚨 Diese zwei Tage gehören euch – abschalten, entspannen und Energie auftanken 🫡🙌",
+"🚨 Zwei Tage Ruhe genießen und danach wieder top motiviert starten 😊✨",
+"🚨 Zwei Tage Pause nutzen, den Kopf frei machen und danach voller Energie loslegen 🤜🤛💪",
+"🚨 Genießt die zwei Tage – danach geht’s wieder mit voller Motivation weiter 🙌🤝",
+"🚨 Zwei Tage abschalten, regenerieren und danach frisch durchstarten 💪😊",
+"🚨 Zwei Tage Pause – perfekt, um neue Energie und Motivation zu tanken 🤜🤛✨",
+"🚨 Zwei Tage frei – nutzt sie, um aufzutanken und danach stark zurückzukommen 🫡🙌",
+"🚨 Zwei Tage zur Erholung, danach geht’s wieder voller Energie weiter 💪🤝",
+"🚨 Genießt die Pause, schaltet ab und kommt danach motiviert zurück 😊✨",
+"🚨 Zwei Tage Ruhe und Zeit für euch selbst – danach wieder top starten 🤜🤛💪",
+"🚨 Zwei freie Tage genießen, runterfahren und danach voller Motivation durchstarten 🙌🤝",
+"🚨 Diese zwei Tage Pause zum Auftanken nutzen – danach geht’s wieder stark weiter 🫡💪",
+"🚨 Zwei Tage Erholung – danach wieder frisch, motiviert und energiegeladen starten 😊✨",
+"🚨 Zwei Tage abschalten, Kräfte sammeln und danach mit voller Power zurückkommen 🤜🤛🙌"
+];
+
+/* --- FUNCTIONS --- */
 
 const thankBtn = document.getElementById('thankBtn');
 const endBtn = document.getElementById('endBtn');
@@ -232,3 +299,4 @@ copyBtn.onclick = () => {
 </script>
 </body>
 </html>
+
